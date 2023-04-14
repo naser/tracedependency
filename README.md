@@ -28,3 +28,4 @@ This lab can be reproduced, with a hands-on approach, with the tracing and visua
   - [Suchakra Sharma](https://twitter.com/tuxology)
   - Arnaud Fiorini
   - Katherine Nadeau
+  - Naser Ezzati-Jivan
