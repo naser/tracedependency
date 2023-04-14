@@ -11,7 +11,7 @@ In this lab, you will install lttng on an Ubuntu machine
 First install the lttng PPA repository:
 
 ```
-$ sudo apt-add-repository ppa:lttng/stable-2.10
+$ sudo apt-add-repository ppa:lttng/ppa
 ```
 
 This should automatically fetch the updates for all repos. If not, you may need to manually update your repositories
@@ -23,8 +23,14 @@ $ sudo apt-get update
 For kernel tracing only, the **lttng-modules-dkms** and **lttng-tools** packages need to be installed:
 
 ```
-$ sudo apt-get install lttng-tools lttng-modules-dkms
+$ sudo apt-get install lttng-tools lttng-modules-dkms babeltrace
 ```
+
+You may also want to install:
+
+liblttng-ust-dev: To compile applications instrumented with UST tracepoints
+
+python3-babeltrace: Python bindings for babeltrace
 
 The package installation will have created a group called **tracing**. This group allows its members to be able to run lttng commands without requiring to be *sudo* and, in consequence, to save traces that are directly readable by the user instead of saving them as root. The installation does not add the user to the **tracing** group, so you may do it at this point.
 
