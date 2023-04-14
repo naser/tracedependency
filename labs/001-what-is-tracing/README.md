@@ -1,4 +1,4 @@
-## What/When/Why Tracing
+## What/When/Why Tracing 
 
 Before going further in this tutorial and starting with the labs, let's define tracing: what it is, when to use it and how it compares with other tools.
 
