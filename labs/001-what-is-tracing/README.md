@@ -1,12 +1,12 @@
-## What/When/Why Tracing 
+## What/When/Why Execution Tracing 
 
 Before going further in this tutorial and starting with the labs, let's define tracing: what it is, when to use it and how it compares with other tools.
 
 - - -
 
-### What Is Tracing?
+### What Is Execution Tracing?
 
-`Tracing` consists in recording specific information during a program's or operating system's execution to better understand what is happening on the system. The simplest form of tracing is what we all learn in programming 101: printf!
+`Executiion Tracing`, or in short `Tracing` consists in recording specific information during a program's or operating system's execution to better understand what is happening on the system. The simplest form of tracing is what we all learn in programming 101: printf!
 
 Every location in the code that we want to trace is called a `tracepoint` and every time a tracepoint is hit is called an `event`. Putting tracepoints in the code is called `instrumentation`. The following example shows those concepts
 
